@@ -1,0 +1,106 @@
+/*---COMMON---*/
+:root {
+    --goldColor: #c1c139;
+    --mainGradient: to left, #121212, #151515 75%;
+    --dire: #f8a6a6;
+    --radiant: #d1ff97;
+    --link: #b6d4ff;
+    --mainGrey: #000000;
+    --imgs_width:35px;
+    --imgs_height:30px;
+    --index: calc(1vw + 1vh);
+    --box_shadow:0 0 10px #a9a9a9,0 0 20px #3f3f3f;
+    --text_shadow:0 0 0 #ffba00;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: #828282;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #383838;
+}
+
+
+a {
+    text-decoration-line: none;
+    transition: 0.2s;
+}
+
+p {
+    text-align: start
+}
+
+*,html {
+    scroll-behavior: smooth !important;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("assets/imgs/backgrounds/shutter1.png");
+    overflow-x: hidden;
+
+}
+
+/*---^^^COMMON^^^---*/
+.App {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-shrink: 1;
+    min-height: 100vh;
+    height: 100%;
+}
+
+
+.clickableItem {
+    width: var(--imgs_width);
+    height: var(--imgs_height);
+    margin-right: 0vw;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+table{
+    height: min-content;
+    background: rgba(14, 14, 14, 0.3);
+}
+
+thead {
+    background: linear-gradient(var(--mainGradient));
+}
+td:not(:first-child){
+    padding: 0 2vw;
+    vertical-align: middle;
+}
+td:first-child{
+    text-align: start;
+}
+
+.custom-tooltip{
+    padding: .5vw 3vw;
+    background: rgba(0, 0, 0, 0.8);
+}
+.custom-tooltip p {
+    text-align: center;
+}
+.clickableItem:hover{
+    box-shadow: var(--box_shadow);
+}

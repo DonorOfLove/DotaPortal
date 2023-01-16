@@ -1,0 +1,98 @@
+* {
+    font-size: 15px;
+}
+
+.playerCard {
+    align-items: center;
+    margin-top: 1vw;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+}
+.empty{
+    width: 50px;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+}
+
+.KDA, .net, .lh, .dn, .gpm, .epm, .damage, .healing {
+    padding: 0 20px;
+}
+
+.neutral_item {
+    width: var(--imgs_width);
+    height: var(--imgs_height);
+    border-radius: 50%;
+    margin-left: 1vw;
+    align-self: center;
+}
+.neutral_item:hover{
+    box-shadow: var(--box_shadow);
+}
+.empty_neutral{
+    width: var(--imgs_width);
+    height: var(--imgs_height);
+    background-color: #1e1e1e;
+    border-radius: 50%;
+    margin-left: 1vw;
+}
+
+.net {
+    color: var(--goldColor);
+}
+
+.items {
+    margin-left: -2vw;
+text-align: start
+}
+
+.lvl {
+    color: var(--goldColor);
+    padding: 0.4vw 0.6vw;
+    border-radius: 50%;
+}
+
+.name {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 110px;
+    text-overflow: ellipsis;
+    text-align: start;
+    color: var(--link);
+}
+.name:hover{
+    text-shadow: var(--text_shadow);
+    }
+
+.buffs {
+    display: flex;
+    flex-direction: row;
+}
+
+.aghanimPlace {
+    margin: 0 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.aghanim {
+    height: 30px;
+}
+
+.shard {
+    width: 20px;
+}
+.stack_count{
+    margin-top: -20px;
+    width: 30px;
+    text-align: end;
+    margin-left: 10px;
+}
+

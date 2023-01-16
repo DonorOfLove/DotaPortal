@@ -1,0 +1,34 @@
+.tabs{
+    margin: 3vw 0;
+}
+.nav_link{
+    padding: 5px;
+    font-size: 20px;
+}
+.nav_link:hover{
+    color: #a2a2a2;
+}
+
+.selected {
+    color: rgb(255, 233, 147);
+    animation: glowing-text 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowing-text {
+    0% {
+        text-shadow: 0 0 5px #ffcf4f;
+    }
+    100% {
+        text-shadow: 0 0 20px #ffcf4f;
+    }
+}
+
+@media (max-width: 540px) {
+    .tabs *{
+        font-size: 4vw;
+
+    }
+    .tabs{
+        margin: 30px 0;
+    }
+}

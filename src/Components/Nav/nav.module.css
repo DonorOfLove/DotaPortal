@@ -1,0 +1,71 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(var(--mainGradient));
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", Ubuntu, Cantarell, "Fira Sans", Helvetica, Arial, sans-serif;
+
+}
+
+.nav_link {
+    color: white;
+    font-size: 25px;
+    font-family: inherit;
+    text-shadow: 0 0 10px #ffba00;
+
+}
+
+.nav_link:hover {
+    color: #a4a4a4;
+    transition: 0.3s;
+}
+.nav_inp {
+    background-color: transparent;
+    border: none;
+    justify-self: end;
+    right: 0;
+}
+
+.nav_inp_wrapp {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+}
+
+.search_icon {
+    width: 20px;
+    margin-right: 0.5vw;
+}
+
+.selected {
+    color: rgb(255, 233, 147);
+    animation: glowing-text 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowing-text {
+    0% {
+        text-shadow: 0 0 5px #ffcf4f;
+    }
+    100% {
+        text-shadow: 0 0 20px #ffcf4f;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav_link {
+        font-size: 5vw;
+    }
+    .nav_inp_wrapp{
+        width: 30%;
+    }
+    .nav_inp{
+        width: 100%;
+    }
+    .search_icon{
+        width: 15px;
+    }
+}

@@ -1,0 +1,39 @@
+.img {
+    width: var(--imgs_width);
+    height: var(--imgs_height);
+    border-radius: 5px;
+}
+
+.img:hover{
+    box-shadow: var(--box_shadow);
+}
+.tooltipImg {
+    width: 50px;
+    border-radius: 3px;
+}
+.background{
+    margin-top: 3px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+.name{
+    padding: 0 1vw;
+    align-self: center;
+}
+
+.target{
+    padding: 5px;
+    background-color: #4a4a4a;
+    margin: 3px 0 ;
+
+}
+.description{
+    background-color: #3f3f3f;
+    padding: 5px;
+}

@@ -1,0 +1,20 @@
+.w {
+    color: var(--radiant);
+    text-shadow:0 0 10px #9cda63,0 0 20px #568e00;
+
+    font-size: 20px;
+}
+
+.l {
+    text-shadow:0 0 10px red,0 0 20px red;
+
+    color: var(--dire);
+    font-size: 20px;
+
+}
+.wl {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}

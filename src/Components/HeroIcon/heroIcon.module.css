@@ -1,0 +1,77 @@
+.avatar{
+    width: 50px;
+}
+.avatar:hover{
+    box-shadow: var(--box_shadow);
+}
+.tooltip_avatar{
+    width: 70px;
+    border-radius: 2px;
+}
+
+.atr{
+    width: 20px;
+    background-color: var(--mainGrey);
+    border-radius: 100px;
+    align-self: center;
+    justify-self: center;
+
+}
+.health{
+    color: var(--radiant);
+}
+.stats:before{
+    content: '';
+    width: 90%;
+    display: block;
+    height: 2px;
+    margin: 0.5vw auto;
+   border-radius: 100px;
+    background:  linear-gradient(to right, #828282, #f8f8f8, #828282);
+    opacity: 20%;
+}
+.mana{
+    color: #9898d1;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    margin: 3px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.role {
+}
+.hp_mana{
+    background:  linear-gradient(var(--mainGradient));
+    text-align: center;
+}
+
+.atr_wrap{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+.name_n_atrs{
+    width: 100%;
+    text-align: center;
+}
+
+.attributes{
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.name{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 3px;
+}

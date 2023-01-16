@@ -1,0 +1,33 @@
+.table {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.match {
+    margin: 10px auto 0 auto;
+    width: 100%;
+    max-width: 700px;
+
+}
+
+.match td {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.match:hover {
+    box-shadow: 0 0 10px #e1e1e1, 0 0 20px #6a6a6a;
+    transition: 0.2s;
+}
+
+.match a {
+    font-size: 20px;
+}
+
+.match a:hover {
+    color: #878787;
+    transition: 0.2s;
+}

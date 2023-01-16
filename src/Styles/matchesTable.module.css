@@ -1,0 +1,16 @@
+.win {
+    background: linear-gradient(to right, rgba(20, 139, 20, 15%) 0%, rgba(129, 215, 129, 30%) 100%);
+    display: table-row;
+}
+
+.lose {
+    background: linear-gradient(to right, rgba(97, 14, 22, 0.15) 0%, rgba(255, 61, 61, 0.3) 100%);
+    display: table-row;
+}
+.match {
+    display: table-row;
+    height: 30px;
+}
+.match:hover {
+    box-shadow: var(--box_shadow);
+}

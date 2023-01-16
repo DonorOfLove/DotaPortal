@@ -1,0 +1,32 @@
+ {
+  "0": {
+    "name": "Normal"
+  },
+  "1": {
+    "name": "Practice"
+  },
+  "2": {
+    "name": "Tournament"
+  },
+ "3": {
+    "name": "Tutorial"
+  },
+  "4": {
+    "name": "Coop Bots"
+  },
+  "5": {
+    "name": "Group Ranked"
+  },
+  "6": {
+
+    "name": "Solo Ranked"
+  },
+  "7": {
+    "name": "Ranked"
+  },
+  "8": {
+    "name": "1v1"
+  },
+  "9": {
+    "name": "Battle Cup"
+  }}
