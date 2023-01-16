@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/DotaPortal/static/css/main.58bff367.css",
+    "main.js": "/DotaPortal/static/js/main.6b4edf3b.js",
+    "static/js/787.01b2fef1.chunk.js": "/DotaPortal/static/js/787.01b2fef1.chunk.js",
+    "static/media/intelligence.png": "/DotaPortal/static/media/intelligence.410f21683daa44f45f06.png",
+    "static/media/agility.png": "/DotaPortal/static/media/agility.10d88ddfc1b126c97f60.png",
+    "static/media/strength.png": "/DotaPortal/static/media/strength.355c7f8cef023c48f0fa.png",
+    "static/media/dota.jpg": "/DotaPortal/static/media/dota.4bbdf1d36ea6d0bf7136.jpg",
+    "static/media/rays.gif": "/DotaPortal/static/media/rays.c473bab0ecc104ea99a7.gif",
+    "static/media/shutter1.png": "/DotaPortal/static/media/shutter1.d859d4a2f1fa4edd1c2c.png",
+    "static/media/telegram-icon.png": "/DotaPortal/static/media/telegram-icon.36afab9516e3f74b1994.png",
+    "static/media/talent.png": "/DotaPortal/static/media/talent.87435e4e06d3fdc69cc4.png",
+    "static/media/dota-plus.png": "/DotaPortal/static/media/dota-plus.1582529898b9dc5e131a.png",
+    "static/media/gitHub-icon.png": "/DotaPortal/static/media/gitHub-icon.7b442bab5606bb0da1d4.png",
+    "static/media/linkedin-icon.png": "/DotaPortal/static/media/linkedin-icon.b328e9dea8d781435980.png",
+    "static/media/search-icon.png": "/DotaPortal/static/media/search-icon.fb227480c6fd7a0d2566.png",
+    "index.html": "/DotaPortal/index.html",
+    "main.58bff367.css.map": "/DotaPortal/static/css/main.58bff367.css.map",
+    "main.6b4edf3b.js.map": "/DotaPortal/static/js/main.6b4edf3b.js.map",
+    "787.01b2fef1.chunk.js.map": "/DotaPortal/static/js/787.01b2fef1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58bff367.css",
+    "static/js/main.6b4edf3b.js"
+  ]
+}
