@@ -1,4 +1,5 @@
-## DotaPortal
+## [DotaPortal](https://donoroflove.github.io/DotaPortal/)
+
 Web applications based on OpenDota free API. Application allows you to find information about recent matches, players, heroes, patch notes, trends, and much more
 
 ## Features
@@ -16,9 +17,7 @@ There is a possibility to find a player to find out information about him or you
 
 ## Available Scripts
 In the project directory, you can run:
-### `npm start`
-### `npm test`
-### `npm run build`
-### `npm run eject`
-### `npm run predeploy`
-### `npm run deploy`
+### `npm start` - runs the app in the development mode.
+### `npm test` - run tests
+### `npm run build` - Builds the app for production to the build folder.
+### `npm run deploy` - host current version to https://donoroflove.github.io/DotaPortal/
