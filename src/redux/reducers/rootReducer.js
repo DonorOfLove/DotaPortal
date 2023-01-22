@@ -1,6 +1,5 @@
 import {combineReducers} from "redux";
 import {searchReducer} from "./searchReducer";
-import {isLoadedreducer} from "./isLoadedReducer";
 import {allHeroesReducer} from "./allHeroesReducer";
 import {itemsReducer} from "./itemsReducer";
 import {itemsIdsReducer} from "./itemsIdsReducer";
@@ -23,5 +22,5 @@ export const rootReducer = combineReducers({
     abilities: abilitiesReducer,
     abilitiesAndTalents: AbilitiesAndTalentsReducer,
     teams: teamsReducer,
-    team:teamReducer
+    team: teamReducer
 })

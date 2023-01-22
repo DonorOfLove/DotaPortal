@@ -5,7 +5,6 @@
 .playerCard {
     align-items: center;
     margin-top: 1vw;
-
 }
 
 .info {
@@ -14,9 +13,11 @@
     align-items: center;
     width: 200px;
 }
-.empty{
+
+.empty {
     width: 50px;
 }
+
 .stats {
     display: flex;
     flex-direction: row;
@@ -33,10 +34,12 @@
     margin-left: 1vw;
     align-self: center;
 }
-.neutral_item:hover{
+
+.neutral_item:hover {
     box-shadow: var(--box_shadow);
 }
-.empty_neutral{
+
+.empty_neutral {
     width: var(--imgs_width);
     height: var(--imgs_height);
     background-color: #1e1e1e;
@@ -50,7 +53,7 @@
 
 .items {
     margin-left: -2vw;
-text-align: start
+    text-align: start
 }
 
 .lvl {
@@ -67,9 +70,10 @@ text-align: start
     text-align: start;
     color: var(--link);
 }
-.name:hover{
+
+.name:hover {
     text-shadow: var(--text_shadow);
-    }
+}
 
 .buffs {
     display: flex;
@@ -89,7 +93,8 @@ text-align: start
 .shard {
     width: 20px;
 }
-.stack_count{
+
+.stack_count {
     margin-top: -20px;
     width: 30px;
     text-align: end;

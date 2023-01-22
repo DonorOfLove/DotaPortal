@@ -1,4 +1,4 @@
-import {SET_ALL_HEROES, SET_ITEMS_IDS} from "../types/types";
+import {SET_ITEMS_IDS} from "../types/types";
 
 const initState = {}
 

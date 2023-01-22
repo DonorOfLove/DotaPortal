@@ -1,13 +1,13 @@
-import {SET_TEAM, SET_TEAM_HEROES, SET_TEAM_MATCHES, SET_TEAM_PLAYERS, SET_TEAMS} from "../types/types";
+import {SET_TEAM, SET_TEAM_HEROES, SET_TEAM_MATCHES, SET_TEAM_PLAYERS} from "../types/types";
 
-const initState={
-    team:null,
-    matches:null,
-    players:null,
-    heroes:null
+const initState = {
+    team: null,
+    matches: null,
+    players: null,
+    heroes: null
 }
 
-export const teamReducer=(state=initState, action)=> {
+export const teamReducer = (state = initState, action) => {
     switch (action.type) {
         case SET_TEAM:
             return {...state, team: {...action.payload}}

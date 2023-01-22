@@ -1,12 +1,12 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Tooltip} from "@mui/material";
 import talentsImg from "../../assets/imgs/icons/talent.png"
-import getTalents from "../../lib/hero/getTalents";
 import s from "./heroTalents.module.css"
 import * as _ from 'lodash';
 import {useSelector} from "react-redux";
 
 const HeroTalents = ({hero}) => {
+
     const abilitiesNTalents = useSelector(state => state.abilitiesAndTalents)
     const abilities = useSelector(state => state.abilities)
     const arrLevel = [25, 20, 15, 10]
@@ -28,7 +28,6 @@ const HeroTalents = ({hero}) => {
             </div>
         }>
             <img src={talentsImg} alt="#" className={s.talentsImg}/>
-
         </Tooltip>
     );
 };

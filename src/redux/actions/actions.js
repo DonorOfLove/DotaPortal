@@ -23,7 +23,6 @@ import {
     SET_TEAM_PLAYERS,
     SET_TEAMS,
     SET_WL,
-    SORT_PRO_BY_WINRATE
 } from "../types/types";
 
 export const setPlayers = (payload) => ({type: SET_PLAYERS, payload})
@@ -34,7 +33,7 @@ export const setPlayer = (payload) => ({type: SET_PLAYER, payload})
 export const setPlayedHeroes = (payload) => ({type: SET_PLAYED_HEROES, payload})
 export const setWl = (payload) => ({type: SET_WL, payload})
 export const setRecentMatches = (payload) => ({type: SET_RECENT_MATCHES, payload})
-export const setAllMatches = (payload)=>({type:SET_ALL_MATCHES,payload})
+export const setAllMatches = (payload) => ({type: SET_ALL_MATCHES, payload})
 export const setPeers = (payload) => ({type: SET_PEERS, payload})
 
 export const setAllHeroes = (payload) => ({type: SET_ALL_HEROES, payload})

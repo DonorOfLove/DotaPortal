@@ -2,17 +2,21 @@
     display: flex;
     text-transform: uppercase;
 }
+
 .cost {
     color: var(--goldColor);
     font-weight: bold;
     margin-top: 3px;
 }
-.background{
+
+.background {
     margin-top: 3px;
 }
-.background img{
+
+.background img {
     border-radius: 5px;
 }
+
 .name {
     padding: 0 1vw;
 }

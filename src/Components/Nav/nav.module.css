@@ -8,7 +8,6 @@
     z-index: 10;
     overflow: hidden;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", Ubuntu, Cantarell, "Fira Sans", Helvetica, Arial, sans-serif;
-
 }
 
 .nav_link {
@@ -16,13 +15,13 @@
     font-size: 25px;
     font-family: inherit;
     text-shadow: 0 0 10px #ffba00;
-
 }
 
 .nav_link:hover {
     color: #a4a4a4;
     transition: 0.3s;
 }
+
 .nav_inp {
     background-color: transparent;
     border: none;
@@ -59,13 +58,16 @@
     .nav_link {
         font-size: 5vw;
     }
-    .nav_inp_wrapp{
+
+    .nav_inp_wrapp {
         width: 30%;
     }
-    .nav_inp{
+
+    .nav_inp {
         width: 100%;
     }
-    .search_icon{
+
+    .search_icon {
         width: 15px;
     }
 }

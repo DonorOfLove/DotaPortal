@@ -4,14 +4,16 @@
     border-radius: 5px;
 }
 
-.img:hover{
+.img:hover {
     box-shadow: var(--box_shadow);
 }
+
 .tooltipImg {
     width: 50px;
     border-radius: 3px;
 }
-.background{
+
+.background {
     margin-top: 3px;
     border-radius: 5px;
     margin-bottom: 3px;
@@ -22,18 +24,19 @@
     flex-direction: row;
     text-transform: uppercase;
 }
-.name{
+
+.name {
     padding: 0 1vw;
     align-self: center;
 }
 
-.target{
+.target {
     padding: 5px;
     background-color: #4a4a4a;
-    margin: 3px 0 ;
-
+    margin: 3px 0;
 }
-.description{
+
+.description {
     background-color: #3f3f3f;
     padding: 5px;
 }

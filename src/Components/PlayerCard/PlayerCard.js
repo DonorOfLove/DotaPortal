@@ -1,10 +1,7 @@
-import React, {lazy} from 'react';
+import React from 'react';
 import s from "./PlayerCard.module.css"
 import HeroIcon from "../HeroIcon/HeroIcon";
 import {useSelector} from "react-redux";
-// import heroes from "../../mock-data/mConstHeroes.json"
-// import items from "../../mock-data/mItems.json"
-// import itemIDs from "../../mock-data/mItemIDs.json"
 import Item from "../Item/Item";
 import aghanimTrue from "../../assets/imgs/aghanim/aghanimTrue.png"
 import aghanimFalse from "../../assets/imgs/aghanim/aghanimFalse.png"
@@ -23,7 +20,7 @@ const PlayerCard = ({player}) => {
     function itemsToArr() {
         let arr = []
         for (let i = 0; i < 6; i++) {
-            if (player["item_" + [i]] != 0) {
+            if (player["item_" + [i]] !== 0) {
                 arr.push(player["item_" + [i]])
             }
         }
@@ -55,7 +52,7 @@ const PlayerCard = ({player}) => {
             <td className={s.buffs}>
                 {player.item_neutral ? (<Item name={itemIDs[player['item_neutral']]}
                                               style={s.neutral_item}/>)
-                    : (<div className={s.empty_neutral}></div>)}
+                    : <div className={s.empty_neutral}></div>}
                 <div className={s.aghanimPlace}>
                     {player.permanent_buffs ? (<>
                         {player.permanent_buffs.find(buff => buff.permanent_buff === 2) ?
@@ -69,7 +66,7 @@ const PlayerCard = ({player}) => {
                         <img src={shardFalse} alt="" className={s.shard}/>
                     </>)}
                 </div>
-                {!filteredItems.length > 0 ? (null) : (
+                {!filteredItems.length > 0 ? null : (
                         filteredItems.map((buff, index) =>
                             mPermanentBuffs[buff.permanent_buff] in mConstAbilities ? (
                                 <div key={buff.permanent_buff+buff.stack_count}>

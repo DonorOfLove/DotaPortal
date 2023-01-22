@@ -3,9 +3,11 @@
     height: 35px;
     margin-bottom: -2px;
 }
-.talents{
+
+.talents {
     padding: 0.5vw;
 }
+
 .level {
     color: var(--goldColor);
     border-radius: 50%;
@@ -15,28 +17,28 @@
     margin: 0 1vw;
     background-color: #2c2c2c;
     padding: .2vw 0.2vw;
-    text-shadow: 0 0 10px #f8d57e,0 0 20px #ffce21;
+    text-shadow: 0 0 10px #f8d57e, 0 0 20px #ffce21;
 }
 
-.row:not(:first-child):before{
+.row:not(:first-child):before {
     position: fixed;
     content: '';
     width: 90%;
     height: 2px;
-    display:  block;
+    display: block;
     margin-top: -27px;
     border-radius: 100px;
-    background:  linear-gradient(to right, #828282, #bcbcbc, #828282);
+    background: linear-gradient(to right, #828282, #bcbcbc, #828282);
     opacity: 20%;
 }
-
 
 .row {
     align-items: center;
     display: flex;
     flex-direction: row;
 }
-.row:not(:first-child){
+
+.row:not(:first-child) {
     margin-top: 5px;
 }
 

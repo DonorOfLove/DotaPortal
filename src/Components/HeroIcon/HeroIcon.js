@@ -7,12 +7,12 @@ import s from './heroIcon.module.css'
 import {useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 
-const HeroIcon = ({id, isClickable=true}) => {
+const HeroIcon = ({id, isClickable = true}) => {
     const heroes = useSelector(state => state.heroes)
-    const hero = heroes.find(curHero => curHero.id == id)
+    const hero = heroes.find(curHero => curHero.id === id)
     return (
         <>
-            {hero?(   <Tooltip title={
+            {hero ? (<Tooltip title={
                 <div className={s.main + ' ' + hero.primary_attr}>
                     <div className={s.wrap}>
                         <div>
@@ -57,7 +57,7 @@ const HeroIcon = ({id, isClickable=true}) => {
                          className={s.avatar} alt='hero'/>
                 </Link>) : (<img src={`https://cdn.cloudflare.steamstatic.com/${hero.img}`}
                                  className={s.avatar} alt='hero'/>)}
-            </Tooltip>):(null)}
+            </Tooltip>) : null}
 
         </>
     );

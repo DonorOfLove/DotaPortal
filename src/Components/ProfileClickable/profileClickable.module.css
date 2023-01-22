@@ -2,6 +2,7 @@
     display: flex;
     margin-bottom: 5px;
 }
+
 .profile_avatar {
     width: 30px;
     height: 30px;
@@ -13,10 +14,11 @@
     color: var(--link);
 }
 
-.name__time{
+.name__time {
     margin: auto 0;
 }
-.profile:hover p{
+
+.profile:hover p {
     color: #7b7b7b;
     transition: 0.2s;
 }

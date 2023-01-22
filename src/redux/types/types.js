@@ -30,7 +30,6 @@ export const SET_DURATIONS='SET_DURATIONS'
 export const SET_HERO_PLAYERS='SET_HERO_PLAYERS'
 export const SET_ITEM_POPULARITY='SET_ITEM_POPULARITY'
 
-
 export const SET_TEAMS = 'SET_TEAMS'
 
 export const SET_TEAM = 'SET_TEAM'

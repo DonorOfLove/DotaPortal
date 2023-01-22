@@ -9,17 +9,18 @@ const Item = ({name, style}) => {
 
     return (
         <>
-        {item?( <Tooltip title={
+            {item ? (<Tooltip title={
                 <div className={s.background}>
                     <div className={s.header}>
-                        <img  src={`https://cdn.cloudflare.steamstatic.com/${items[name]["img"]}`} alt="#"/>
+                        <img src={`https://cdn.cloudflare.steamstatic.com/${items[name]["img"]}`} alt="#"/>
                         <div className={s.name}>
                             <h1>{item.dname}</h1>
-                            <p className={s.cost}>{!!item.cost ? (item.cost) : (null)}</p>
+                            <p className={s.cost}>{!!item.cost ? (item.cost) : null}</p>
                         </div>
                     </div>
                     <ul>
-                        {item.attrib.map((atr) => <p className={s.atr} key={atr}>{atr.header}{atr.value} {atr.footer}</p>)}
+                        {item.attrib.map((atr) => <p className={s.atr}
+                                                     key={atr}>{atr.header}{atr.value} {atr.footer}</p>)}
                     </ul>
                     <ul>{item.hint?.map((hint) => <p className={s.hint} key={hint}>{hint}</p>)}</ul>
                     <p className={s.lore}>{item.lore}</p>
@@ -27,14 +28,15 @@ const Item = ({name, style}) => {
                         <p>Components: <br/>
                             {item.components.map((component) =>
                                 <img className={s.component} key={component}
-                                     src={`https://cdn.cloudflare.steamstatic.com/${items[component]["img"]}`} alt="#"/>)}
+                                     src={`https://cdn.cloudflare.steamstatic.com/${items[component]["img"]}`}
+                                     alt="#"/>)}
                         </p>
-                    ) : (null)}
+                    ) : null}
                 </div>}>
                 <img className={style || 'clickableItem'}
                      src={`https://cdn.cloudflare.steamstatic.com/${items[name]["img"]}`} alt="#"/>
-            </Tooltip>):(null)}
-       </>
+            </Tooltip>) : null}
+        </>
     );
 };
 

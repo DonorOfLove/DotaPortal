@@ -1,0 +1,185 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 30%);
+    padding: 30px 0;
+    width: 100%;
+}
+
+.more {
+    background-color: #3f3f3f;
+    width: 1vw;
+    height: 1vw;
+    text-align: center;
+    font-weight: bold
+}
+
+.main {
+    padding: 0 5vw;
+    padding-bottom: 50px;
+    height: 80vh;
+    width: 100vw;
+}
+
+.name {
+    display: flex;
+}
+
+.name img {
+    width: 70px;
+    margin: 0 1vw;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rankings {
+    width: 100%;
+}
+
+.rankingsWrap {
+    width: 100%;
+}
+
+.rankings a:hover {
+    box-shadow: var(--box_shadow);
+    transition: 0.2s;
+}
+
+.matchUps {
+    width: 100%;
+}
+
+.item td {
+    padding: 2vw !important
+}
+
+.items {
+    width: 100%;
+}
+
+.items td:first-child {
+    text-align: center;
+}
+
+.table_wrap_rankings {
+    overflow: auto;
+}
+
+.players_n_mathUps {
+    padding-left: 20px;
+    width: 40%;
+}
+
+.players {
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.item {
+    vertical-align: top !important;
+}
+
+.best_items_h, .rankings_h, .players_h, .match_ups_h {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.table_wrap_rankings table {
+    width: 100%;
+}
+
+@media (max-width: 770px) {
+    .main {
+        padding: 0 8vw;
+    }
+
+    .wrap {
+        flex-direction: column;
+    }
+
+    .players_n_mathUps {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.nav_link {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.nav_link:hover {
+    color: #a2a2a2;
+}
+
+.hero_td {
+    width: 35px;
+}
+
+@media (max-width: 830px) {
+    .item {
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .main {
+        padding: 10px;
+    }
+
+    .tabs * {
+        font-size: 3.5vw;
+    }
+
+    .tabs {
+        margin: 30px 0;
+    }
+
+    .item img {
+        width: 7vw;
+        height: auto
+    }
+
+    .name_n_roles {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
+    }
+
+    .roles {
+        padding-left: 10px;
+    }
+
+    .abilities {
+        padding: 3vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .popularity {
+        padding: 3vw;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+}
+
+.tabs {
+    margin: 3vw 0;
+}
+
+
